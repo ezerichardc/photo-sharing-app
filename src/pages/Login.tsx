@@ -45,14 +45,14 @@ const Login = () => {
           <div className="flex h-12 w-12 items-center justify-center rounded-xl gradient-warm shadow-glow">
             <Camera className="h-6 w-6 text-primary-foreground" />
           </div>
-          <span className="font-display text-2xl font-bold">Lumina</span>
+          <span className="font-display text-2xl font-bold">Rich-Chat</span>
         </Link>
 
         {/* Login Card */}
         <div className="bg-card rounded-2xl shadow-medium p-8 animate-fade-in-up">
           <div className="text-center mb-6">
             <h1 className="font-display text-2xl font-bold mb-2">Welcome back</h1>
-            <p className="text-muted-foreground">Sign in to continue to Lumina</p>
+            <p className="text-muted-foreground">Sign in to continue to Rich-Chat</p>
           </div>
 
           {/* Azure AD login */}

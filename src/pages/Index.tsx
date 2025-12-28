@@ -10,28 +10,28 @@ const Index = () => {
   return (
     <div className="min-h-screen gradient-sunset">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -top-1/2 -right-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float" />
           <div className="absolute -bottom-1/2 -left-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
         </div>
-        
+
         <div className="container relative pt-20 pb-32">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6 animate-fade-in">
               <Sparkles className="h-4 w-4" />
               <span>Share your world through images</span>
             </div>
-            
+
             <h1 className="font-display text-5xl md:text-7xl font-bold tracking-tight mb-6 animate-fade-in-up">
               Where{' '}
               <span className="text-gradient">moments</span>
               {' '}become{' '}
               <span className="text-gradient">memories</span>
             </h1>
-            
+
             <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '100ms' }}>
               Connect with a vibrant community of creators and fans. Share your best shots, explore inspiring content, and interact through the art of photos and stories.
             </p>
@@ -120,7 +120,7 @@ const Index = () => {
         <div className="container">
           <div className="relative rounded-3xl gradient-warm p-12 md:p-16 overflow-hidden">
             <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRjMC0yLjIxIDEuNzktNCA0LTRzNCAxLjc5IDQgNC0xLjc5IDQtNCA0LTQtMS43OS00LTR6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-30" />
-            
+
             <div className="relative text-center">
               <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
                 Ready to share your story?
@@ -128,7 +128,7 @@ const Index = () => {
               <p className="text-primary-foreground/80 text-lg mb-8 max-w-xl mx-auto">
                 Chat with friends and family while sharing your unique perspective with the world.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 {/* <Button 
                   size="lg" 
@@ -159,10 +159,10 @@ const Index = () => {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg gradient-warm">
               <Camera className="h-4 w-4 text-primary-foreground" />
             </div>
-            <span className="font-display font-semibold">Lumina</span>
+            <span className="font-display font-semibold">Rich-Chat</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            © 2025 Lumina Photo App.
+            © 2025 Rich-Chat Photo App.
           </p>
         </div>
       </footer>
