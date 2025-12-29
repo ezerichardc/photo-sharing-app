@@ -1,7 +1,7 @@
 {
-  "name": "lumina-azure-functions",
+  "name": "richchat-azure-functions",
   "version": "1.0.0",
-  "description": "Azure Functions backend for Lumina photo sharing app",
+  "description": "Azure Functions backend for Rich-chat photo sharing app",
   "main": "dist/index.js",
   "engines": {
     "node": ">=18"
